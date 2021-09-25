@@ -15,7 +15,7 @@ services:
     environment:
       - POSTGRES_USER=[postgres username] #edit
       - POSTGRES_PASSWORD=[postgres password] #edit
-      - POSTGRES_DB=[database name]#edit
+      - POSTGRES_DB=[database name] #edit
       - LC_ALL=C.UTF-8 #edit
       - APP_DB_USER=[database user name] #edit
       - APP_DB_PASS=[postgres user password] #edit
